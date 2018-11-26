@@ -28,7 +28,7 @@ public class ALLPharmacyrequest {
 
 
 	WebDriver driver;
-	int i, j, k, p, q, receveditem, a,k;
+	int i, j, k, p, q, receveditem, a;
 	String Pharmacy_Rno, Ritem, xp, CMORNO, Stock_qty, Required_qty,PRNO,date1;
     int Seconds=0;
     

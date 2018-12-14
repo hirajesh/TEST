@@ -17,7 +17,7 @@ public class LabTestEntry {
 
 	WebDriver driver;
 	String all,Trimname,lname;
-	String[] PSname={"10771","10768"};
+	String[] PSname={"10798"};
 	String Healthpost="http://192.168.137.1/Multihospital_New/HDSplashscreen.aspx?log=0";
 	String Hospital_LOCAL="http://192.168.137.1/Multihospital_New/";
 	
@@ -117,7 +117,7 @@ public class LabTestEntry {
 		action1.moveToElement(save).click().build().perform();
 		Thread.sleep(5000);
 		driver.findElement(By.cssSelector("body > div.bootbox.modal.fade.bootbox-alert.in > div > div > div.modal-footer > button")).click();
-		Thread.sleep(2000);	
+		Thread.sleep(4000);	
 		}
 		Thread.sleep(2000);	
 	signout();

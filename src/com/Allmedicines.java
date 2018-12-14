@@ -182,7 +182,7 @@ public class Allmedicines
     		
     	while(true)
     	{
-    		JavascriptExecutor scroll = (JavascriptExecutor) driver;
+    		JavascriptExecutor scroll = ((JavascriptExecutor) driver);
 			scroll.executeScript("window.scrollBy(0,200)", "");
     		try {
     			//SEND REQUEST
